@@ -68,7 +68,7 @@ A beautiful, memory-optimized personal homepage with dynamic widgets, live searc
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mysearchengine.git
+git clone https://github.com/rtavishk/personalizedHomepage.git
 
 # Navigate to project
 cd mysearchengine
