@@ -515,7 +515,7 @@ export default function Home() {
                 onKeyDown={handleKeyDown}
                 onFocus={() => setShowSuggestions(true)}
                 onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
-                className="w-full pl-12 sm:pl-16 pr-12 sm:pr-16 py-3 sm:py-5 bg-white bg-opacity-90 backdrop-blur-xl border border-purple-400 border-opacity-30 rounded-2xl sm:rounded-3xl text-white text-base sm:text-lg placeholder-gray-600 focus:outline-none focus:ring-2 sm:focus:ring-4 focus:ring-purple-400 focus:ring-opacity-30 focus:border-transparent transition-all duration-300 shadow-xl"
+                className="w-full pl-12 sm:pl-16 pr-12 sm:pr-16 py-3 sm:py-5 bg-white bg-opacity-90 backdrop-blur-xl border border-purple-400 border-opacity-30 rounded-2xl sm:rounded-3xl text-black text-base sm:text-lg placeholder-gray-600 focus:outline-none focus:ring-2 sm:focus:ring-4 focus:ring-purple-400 focus:ring-opacity-30 focus:border-transparent transition-all duration-300 shadow-xl"
                 placeholder="Search the web or type a URL..."
                 autoComplete="off"
                 autoFocus
