@@ -546,7 +546,7 @@ export default function Home() {
                     key={index}
                     type="button"
                     onClick={() => handleSuggestionClick(suggestion)}
-                    className="w-full px-4 sm:px-6 py-3 text-left text-white hover:bg-purple-100 transition-colors duration-200 flex items-center gap-3 group"
+                    className="w-full px-4 sm:px-6 py-3 text-left text-black hover:bg-purple-100 transition-colors duration-200 flex items-center gap-3 group"
                   >
                     <Search className="h-4 w-4 text-gray-400 group-hover:text-purple-600" />
                     <span className="text-sm sm:text-base">{suggestion}</span>
